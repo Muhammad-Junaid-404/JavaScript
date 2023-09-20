@@ -34,3 +34,27 @@ const Func = function () {
 
 
 console.log(typeof bigNumber);
+
+
+
+// ********** Stack & Heap Memory ********* //
+
+let variableOne = "unknown@gmail.com"
+let variableTwo = variableOne
+
+variableTwo = "Tech@gmail.com"
+
+console.log(variableOne);
+console.log(variableTwo);
+
+let Obj1 ={
+    name : "TechValley",
+    location :"North"
+}
+
+let Obj2 = Obj1
+
+Obj2.name = "Tech City"
+
+console.log(Obj1);
+console.log(Obj2);
