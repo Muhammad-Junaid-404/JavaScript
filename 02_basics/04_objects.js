@@ -40,3 +40,6 @@ console.log(Object.entries(twitterUser));
 // checking if value exist
 console.log(twitterUser.hasOwnProperty("logedIn"));
 
+// object destructoring
+
+// json 
